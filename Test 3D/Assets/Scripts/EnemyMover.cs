@@ -1,11 +1,13 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class EnemyMover : MonoBehaviour
 {
     private const string Speed = "Speed";
 
     [SerializeField] private Vector3 _movementDirrection;
     [SerializeField] private float _movementSpeed;
+
     private Animator _animator;
 
     private void Start()
