@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class EnemyMover : MonoBehaviour
 {
+    private const string Speed = "Speed";
+
     [SerializeField] private Vector3 _movementDirrection;
     [SerializeField] private float _movementSpeed;
     private Animator _animator;
@@ -25,6 +27,6 @@ public class EnemyMover : MonoBehaviour
     private void Move()
     {
         transform.Translate(Vector3.forward * _movementSpeed * Time.deltaTime);
-        _animator.SetFloat("Speed", _movementSpeed);
+        _animator.SetFloat(Speed, _movementSpeed);
     }
 }

@@ -684,7 +684,7 @@ MonoBehaviour:
   - {fileID: 1228369331}
   - {fileID: 1724612538}
   - {fileID: 2026323867}
-  _enemy: {fileID: -2372398366136181920, guid: 356ddbcc333d8e84ab3ee4f723603fa4, type: 3}
+  _enemy: {fileID: -1045189637422951932, guid: 356ddbcc333d8e84ab3ee4f723603fa4, type: 3}
   _timeBetweenSpawn: 2
   _lifetime: 30
 --- !u!1 &1724612537
